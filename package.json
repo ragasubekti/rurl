@@ -1,0 +1,29 @@
+{
+  "name": "rurl",
+  "version": "1.0.0",
+  "description": "An URL Shortener",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch & nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragasubekti/rurl.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "express",
+    "nodejs"
+  ],
+  "author": "Raga Subekti <rfilmriot@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragasubekti/rurl/issues"
+  },
+  "homepage": "https://github.com/ragasubekti/rurl#readme",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}
