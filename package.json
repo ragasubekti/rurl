@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --watch & nodemon ."
+    "start": "tsc --watch & nodemon ./lib",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,11 @@
   },
   "homepage": "https://github.com/ragasubekti/rurl#readme",
   "devDependencies": {
+    "nodemon": "^1.18.10",
     "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
   }
 }
